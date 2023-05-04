@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./../styles.css" />
+    <link
+      rel="shortcut icon"
+      href="./../assets/images/favicon.ico"
+      type="image/x-icon"
+    />
+    <title>Netflix</title>
+  </head>
+  <body>
+    <header>
+      <figure>
+        <img src="./../assets/images/logo.png" alt="logo" />
+      </figure>
+    </header>
+
+    <main>
+      <div class="container">
+        <form>
+          <h1>Inicia sesión</h1>
+          <input required type="text" placeholder="Email número de teléfono" />
+          <input required type="password" placeholder="Contraseña" />
+
+          <input id="submit-button" type="submit" value="Iniciar sesión" />
+
+          <div class="check">
+            <label>
+              <input type="checkbox" checked />
+              <span>Recuérdame</span>
+            </label>
+
+            <a href="">¿Necesitas ayuda?</a>
+          </div>
+
+          <div class="bottom-section">
+            <label>
+              <span> ¿Primera vez en Netflix? </span>
+
+              <a id="sign-up" href="">Suscríbete ahora. </a>
+            </label>
+
+            <label class="info">
+              <span>
+                Esta página está protegida por Google reCAPTCHA para comprobar
+                que no eres un robot.
+              </span>
+
+              <a href="">Más info.</a>
+            </label>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <p>
+          ¿Preguntas? Llama al
+
+          <a href="">1 (408) 469-4467 (USA)</a>
+        </p>
+
+        <ul>
+          <li>
+            <a href="">Preguntas frecuentes</a>
+          </li>
+          <li>
+            <a href="">Centro de ayuda</a>
+          </li>
+          <li>
+            <a href="">Términos de uso</a>
+          </li>
+          <li>
+            <a href="">Privacidad</a>
+          </li>
+          <li>
+            <a href="">Preferencias de cookies</a>
+          </li>
+          <li>
+            <a href="">Información corporativa</a>
+          </li>
+        </ul>
+
+        <label class="lang">
+          <figure>
+            <img src="./../assets/images/language.svg" alt="lang" />
+          </figure>
+
+          <select id="lang">
+            <option value="es">Español</option>
+            <option value="en">English</option>
+          </select>
+        </label>
+      </div>
+    </footer>
+
+    <script src="./../main.js"></script>
+  </body>
+</html>
